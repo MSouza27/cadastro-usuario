@@ -48,9 +48,9 @@ classDiagram
         -String dependents
     }
 
-    User "1" --> "1" Data
-    Data "1" --> "0..*" Address
-    User "1" --> "0..*" Feature
-    User "1" --> "1" Status
-    User "1" --> "0..*" News
+    User "1" *--> "1" Data
+    Data "1" *--> "0..*" Address
+    User "1" *--> "0..*" Feature
+    User "1" *--> "1" Status
+    User "1" *--> "0..*" News
 ```
